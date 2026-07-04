@@ -131,24 +131,25 @@ a {
   left: 50%;
   width: min-content;
   max-width: 88vw;
-  transform: translate(-50%, -44%);
+  transform: translate(-50%, -43%) scaleX(1.08) rotate(-1deg);
   color: #000;
   font-family:
+    "Cooper Black",
+    "Cooper Std Black",
+    "Bookman Old Style",
+    "Arial Rounded MT Bold",
     Arial Black,
-    Impact,
-    "Arial Narrow",
     sans-serif;
-  font-size: clamp(150px, 28vw, 360px);
-  font-weight: 950;
-  line-height: 0.74;
-  letter-spacing: -0.16em;
+  font-size: clamp(170px, 31.6vw, 400px);
+  font-weight: 900;
+  line-height: 0.72;
+  letter-spacing: -0.14em;
   text-transform: lowercase;
-  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.08));
-  font-stretch: condensed;
+  filter: drop-shadow(0 18px 24px rgba(0, 0, 0, 0.1));
 }
 
 .hero-logo::first-letter {
-  letter-spacing: -0.2em;
+  letter-spacing: -0.18em;
 }
 
 .hero-bottom {
@@ -491,7 +492,7 @@ dd {
   .hero-logo {
     max-width: 94vw;
     font-size: clamp(118px, 38vw, 220px);
-    transform: translate(-50%, -36%);
+    transform: translate(-50%, -36%) scaleX(1.04) rotate(-1deg);
   }
 
   .hero-bottom {
